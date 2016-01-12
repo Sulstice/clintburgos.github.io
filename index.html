@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>CFHworld</title>
+<link rel="icon" type="image/ico" href="http://www.cfhworld.com/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+	$("#div1").load("home.txt");
+
+  $("#home").click(function(){
+  	loadResize("home.txt");
+  });
+  $("#code").click(function(){
+  	loadResize("code.txt");
+  });
+  $("#music").click(function(){
+  	loadResize("music.txt");
+  });
+  $("#profiles").click(function(){
+  	loadResize("profiles.txt");
+  });
+
+  $(window).scroll(function() {
+    var yPos = -($(window).scrollTop() / 10); 
+    var coords = '50% '+ yPos + 'px';
+    $("body").css("background-position", coords );
+  });
+});
+
+function loadResize(url) {
+	$("#div1").load(url, function(responseTxt, statusTxt, xhr){
+    if(statusTxt == "success")
+    	document.getElementById('div0').style.height = parseInt(document.getElementById('div1').clientHeight + 50) + 'px';
+    if(statusTxt == "error")
+      alert("Error: " + xhr.status + ": " + xhr.statusText);
+	});
+}
+</script>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<p class="nav"><a id="home">home</a>
+		  &nbsp<a id="code">code</a>
+		  &nbsp<a id="music">music</a>
+		  &nbsp<a id="profiles">profiles</a>
+</p>
+
+<div id="div0" class="page"></div>
+
+<pre>
+<div id="div1" class="container"></div>
+</pre>
 
 </body>
 </html>
