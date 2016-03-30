@@ -7,20 +7,20 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
 <script>
-$(document).ready(function(){
+$(document).ready(function() {
 	$("#div1").load("home.txt");
 
-  $("#home").click(function(){
-  	loadResize("home.txt");
+  $("#home").click(function() {
+  	loadAndResize("home.txt");
   });
-  $("#code").click(function(){
-  	loadResize("code.txt");
+  $("#code").click(function() {
+  	loadAndResize("code.txt");
   });
-  $("#music").click(function(){
-  	loadResize("music.txt");
+  $("#music").click(function() {
+  	loadAndResize("music.txt");
   });
-  $("#profiles").click(function(){
-  	loadResize("profiles.txt");
+  $("#profiles").click(function() {
+  	loadAndResize("profiles.txt");
   });
 
   $(window).scroll(function() {
@@ -30,12 +30,12 @@ $(document).ready(function(){
   });
 });
 
-function loadResize(url) {
-	$("#div1").load(url, function(responseTxt, statusTxt, xhr){
+function loadAndResize(url) {
+	$("#div1").load(url, function(responseTxt, statusTxt, xhr) {
     if(statusTxt == "success")
     	document.getElementById('div0').style.height = parseInt(document.getElementById('div1').clientHeight + 50) + 'px';
     if(statusTxt == "error")
-      alert("Error: " + xhr.status + ": " + xhr.statusText);
+      console.log("Error: " + xhr.status + ": " + xhr.statusText);
 	});
 }
 </script>
@@ -50,9 +50,9 @@ function loadResize(url) {
 
 <div id="div0" class="page"></div>
 
-<pre>
+<!-- <pre> -->
 <div id="div1" class="container"></div>
-</pre>
+<!-- </pre> -->
 
 </body>
 </html>

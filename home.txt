@@ -1,11 +1,7 @@
 <font size="32">home</font>	
 
-Hello! My name is <b>Clinton Burgos</b>. I'm a Sophomore at the <b>University of Texas at Austin</b> studying <b>Computer Science</b>
-with a minor in <b>Psychology</b>. I have also had experience with <b>Neuroscience</b> research at Tufts University, where I helped 
-install and figure out how to use ERP processing software and wrote documentation for others in the lab to learn from. 
-I also enjoy self-conducted media projects such as <b>music</b>, short films, video games, and written stories. This website 
-has hosted my projects since 2005, undergoing several revisions over the years.
+Hello! My name is <b>Clinton Burgos</b>. I'm a Senior at the <b>University of Texas at Austin</b> studying <b>Computer Science</b> with a minor in <b>Psychology</b>. I have also had experience with <b>Neuroscience</b> research at the Lewis-Peacock Lab and Tufts University. <b>Music</b> remains a major hobby of mine. This website has hosted my projects since 2005, undergoing several revisions over the years.
 
-Please take a look at my <font color="white"><a href="/clintonburgosresume2015_fall_cs_web.pdf">resume.</a></font>
+Please take a look at my <font color="white"><a href="/clintonburgosresume2016_spring.pdf">resume.</a></font>
 	
 <img style="border-radius:7px" src="/clintprofile3.jpg" />
