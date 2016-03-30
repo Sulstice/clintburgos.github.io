@@ -13,6 +13,7 @@ Neural network controlled minesweepers that get better at finding mines each gen
 
 <b>Academic projects (all code available upon request):</b>
 
+
 Network Security (2016)
 
 Exploiting buffer overflow, double free, and printf.
@@ -21,26 +22,31 @@ Exploiting buffer overflow, double free, and printf.
 Exploiting CSRF, XSS, and SQL Injection.
 <a href=“https://www.cs.utexas.edu/~ojensen/courses/cs361s/assignment_proj1_d8eb4c476455cc824c5fb17506c40d948aba55a5.pdf”>Assignment Page</a>
 
+
 Programming Languages (2016)
 
 Interpreter written in Haskell for a Javascript-like language. Includes multiple arguments/declarations, first class functions, error checking.
 <a href=“https://www.cs.utexas.edu/~wcook/anatomy/anatomy.htm>Book with Assignments</a>
+
 
 Software Engineering (2015)
 
 Recreation of Netflix’s rating prediction algorithm, developed using Coverage for unit and acceptance testing and Travis CI for build testing (pair programming, team of two).
 <a href=“https://www.cs.utexas.edu/users/downing/cs373/projects/Netflix.html”>Assignment Page</a>
 
+
 Principles of Computer Systems (2015)
 
 PintOS projects on implementing virtual memory, a filesystem, a shell, system calls, a stack, and more for an operating system (pair programming, team of four).
 <a href=“http://www.cs.utexas.edu/~ans/classes/cs439/projects/pintos/WWW/pintos.html”>All PintOS Projects Instructions</a>
+
 
 Computer Organization and Architecture (2014)
 
 Program written in assembly for the Y86 simulator that computes the fibonacci of the given number.
 
 Bubble sort in assembly for the Y86 simulator, one version using jumps and another using conditional moves in the inner loop.
+
 
 Data Structures (2012)
 
