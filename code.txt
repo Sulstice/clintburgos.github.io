@@ -13,6 +13,19 @@ Neural network controlled minesweepers that get better at finding mines each gen
 
 <b>Academic projects (all code available upon request):</b>
 
+Network Security (2016)
+
+Exploiting buffer overflow, double free, and printf.
+<a href=“https://www.cs.utexas.edu/~ojensen/courses/cs361s/assignment_proj2_34ab6a3b9d003afef1cc3ec18365c466b26cc045.pdf”>Assignment Page</a>
+
+Exploiting CSRF, XSS, and SQL Injection.
+<a href=“https://www.cs.utexas.edu/~ojensen/courses/cs361s/assignment_proj1_d8eb4c476455cc824c5fb17506c40d948aba55a5.pdf”>Assignment Page</a>
+
+Programming Languages (2016)
+
+Interpreter written in Haskell for a Javascript-like language. Includes multiple arguments/declarations, first class functions, error checking.
+<a href=“https://www.cs.utexas.edu/~wcook/anatomy/anatomy.htm>Book with Assignments</a>
+
 Software Engineering (2015)
 
 Recreation of Netflix’s rating prediction algorithm, developed using Coverage for unit and acceptance testing and Travis CI for build testing (pair programming, team of two).
