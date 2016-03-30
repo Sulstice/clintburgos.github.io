@@ -11,8 +11,8 @@ Genetic algorithm using a simulation of natural selection to find a sequence of 
 Neural network controlled minesweepers that get better at finding mines each generation (needs work)
 <a href=“https://github.com/clintburgos/AI-Junkie-NeuralNetworks”>> Neural Networks on GitHub</a>
 
-<b>Academic projects (all code available upon request):</b>
 
+<b>Academic projects (all code available upon request):</b>
 
 Network Security (2016)
 
