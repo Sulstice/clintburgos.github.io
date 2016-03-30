@@ -2,20 +2,16 @@
 
 <b>Personal projects:</b>
 
-An app where users can mark their location as “chill”. A heatmap (chillmap) shows users where the chillest spots are at B) Plans to extend this to alert SXSW festival goers of where the “chillest” free stuff is.
-<a href=“https://github.com/clintburgos/chill”>> chill on GitHub</a>
-
 Game for iOS in which the player creates massive chain reactions of TNT to score points. Other items such as rocks and atomic bombs change up gameplay. More/bigger chains in a short amount of time increase the player’s destructive power.
 <a href=“https://github.com/clintburgos/Explosion-Master”>> Explosion Master on GitHub</a>
 
-Genetic algorithm using a simulation of natural selection to find a sequence of operators and numbers that obtain the
-goal number.
+Genetic algorithm using a simulation of natural selection to find a sequence of operators and numbers that obtain the goal number.
 <a href=“https://github.com/clintburgos/AI-Junkie-GeneticAlgorithm”>> Genetic Algorithm on GitHub</a>
 
 Neural network controlled minesweepers that get better at finding mines each generation (needs work)
 <a href=“https://github.com/clintburgos/AI-Junkie-NeuralNetworks”>> Neural Networks on GitHub</a>
 
-<b>Academic projects (all code available on request):</b>
+<b>Academic projects (all code available upon request):</b>
 
 Software Engineering (2015)
 
@@ -31,20 +27,17 @@ Computer Organization and Architecture (2014)
 
 Program written in assembly for the Y86 simulator that computes the fibonacci of the given number.
 
-Bubble sort in assembly for the Y86 simulator, one version using jumps and another using conditional moves in the
-inner loop.
+Bubble sort in assembly for the Y86 simulator, one version using jumps and another using conditional moves in the inner loop.
 
 Data Structures (2012)
 
 Phrase/word/character locator and counter, and movie ratings averaging, using MapReduce. 
 <a href=“http://www.cs.utexas.edu/users/novak/cs314mapr.html”>Assignment Page</a>
 
-Program that contains a path finder and also solves physics problems by searching for an applicable formula, plugging 
-in variables, and solving for the unknown variable.
+Program that contains a path finder and also solves physics problems by searching for an applicable formula, plugging in variables, and solving for the unknown variable.
 <a href=“http://www.cs.utexas.edu/users/novak/cs314treeb.html”>Assignment Page</a>
 
-Expanding on the previous, this program solves physics problems with several equations, can perform differential 
-Calculus, and convert Lisp syntax into Java code.
+Expanding on the previous, this program solves physics problems with several equations, can perform differential Calculus, and convert Lisp syntax into Java code.
 <a href=“http://www.cs.utexas.edu/users/novak/cs314pats.html”>Assignment Page</a>
 
 Full map of costs to nodes using Dijkstra's algorithm, MST using Prim’s algorithm, and A* search optimal path finder. 
@@ -52,6 +45,3 @@ Full map of costs to nodes using Dijkstra's algorithm, MST using Prim’s algori
 
 Sound sequencer utilizing Memoization technique for expensive methods. (needs some fixing on timing)
 <a href=“http://www.cs.utexas.edu/users/novak/cs314hash.html”>Assignment Page</a>
-
-
-
