@@ -12,7 +12,7 @@ a {
 	text-decoration:none;
 	cursor: pointer;
 	color: white;
-	text-shadow: 0px 0px 1px black;
+	text-shadow: 0px 0px 2px black;
 }
 
 a:hover { 
