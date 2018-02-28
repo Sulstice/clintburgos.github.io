@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CFHworld</title>
+<link rel="icon" type="image/ico" href="http://www.cfhworld.com/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function() {
+	$("#div1").load("home.html");
+
+  $("#home").click(function() {
+  	loadAndResize("home.html");
+  });
+  $("#code").click(function() {
+  	loadAndResize("code.html");
+  });
+  $("#music").click(function() {
+  	loadAndResize("music.html");
+  });
+  $("#profiles").click(function() {
+  	loadAndResize("profiles.html");
+  });
+
+  $(window).scroll(function() {
+    var yPos = -($(window).scrollTop() / 10); 
+    var coords = '50% '+ yPos + 'px';
+    $("body").css("background-position", coords );
+  });
+});
+
+function loadAndResize(url) {
+	$("#div1").load(url, function(responseTxt, statusTxt, xhr) {
+    if(statusTxt == "success")
+    	document.getElementById('div0').style.height = parseInt(document.getElementById('div1').clientHeight + 50) + 'px';
+    if(statusTxt == "error")
+      console.log("Error: " + xhr.status + ": " + xhr.statusText);
+	});
+}
+</script>
+</head>
+<body>
+
+<p class="nav"><a class="navLink" id="home">home</a>
+		  &nbsp<a class="navLink" id="code">code</a>
+		  &nbsp<a class="navLink" id="music">music</a>
+		  &nbsp<a class="navLink" id="profiles">profiles</a>
+</p>
+
+<div id="div0" class="page"></div>
+
+<!-- <pre> -->
+<div id="div1" class="container"></div>
+<!-- </pre> -->
+
+</body>
+</html>
