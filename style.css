@@ -8,6 +8,10 @@ p.nav {
     cursor: default
 }
 
+h1 {
+  font-size: 32;
+}
+
 a { 
 	text-decoration:none;
 	cursor: pointer;
@@ -25,13 +29,13 @@ a.navLink {
 
 div.page { 
 	opacity:0.6;
-   	position:absolute;
-    top:3.5em;
-    left:3em;
-    width:900px;
-    height:574px;
-    background-color:white;
-    border-radius:7px
+  position:absolute;
+  top:3.5em;
+  left:3em;
+  width:900px;
+  height:574px;
+  background-color:white;
+  border-radius:7px
 }
 
 div.container { 
@@ -39,21 +43,21 @@ div.container {
 	top:4em;
 	left:4.5em;
 	width:860px;
-    color:black;
-    word-wrap:normal;
-    white-space: pre-wrap;
-    overflow: hidden;
+  color:black;
+  word-wrap:normal;
+  white-space: pre-wrap;
+  overflow: hidden;
 	font-family:'Book Antiqua',Palatino,serif;
-    opacity:1;
-    cursor: default
+  opacity:1;
+  cursor: default
 }
 
 body { 
 	background: url(cfhworld_back.jpg) 50% 0 no-repeat fixed;
 	background-color: black;
 	/* really gotta cover it */
-   	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
 }
